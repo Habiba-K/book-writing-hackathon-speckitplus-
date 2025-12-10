@@ -483,4 +483,4 @@ In the next chapter, we'll learn about controllers - nodes that read sensor data
 
 ---
 
-[← Chapter 4: Launch Files](./chapter-4.md) | [Chapter 6: Controllers →](./chapter-6.md)
+[← Chapter 4: Launch Files](./launch.md) | [Chapter 6: Controllers →](./controllers.md)

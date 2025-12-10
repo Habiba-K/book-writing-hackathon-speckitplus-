@@ -186,6 +186,18 @@ The following broken internal links were identified and fixed to ensure proper n
    - **From**: `Having issues? Check the [Troubleshooting Guide](./troubleshooting.md) for common problems and solutions.`
    - **To**: `For common issues and solutions, refer to the general ROS 2 and Gazebo documentation resources.`
 
+## Additional Documentation Link Resolution
+
+The following additional broken internal links were identified and fixed to ensure proper navigation within the documentation:
+
+6. **File**: `book-site/docs/module-1/packages.md`
+   - **Fixed**: `[← Chapter 2: Communication](./chapter-2.md) | [Chapter 4: Launch Files →](./chapter-4.md)`
+   - **To**: `[← Chapter 2: Communication](./communication.md) | [Chapter 4: Launch Files →](./launch.md)`
+
+7. **File**: `book-site/docs/module-1/urdf.md`
+   - **Fixed**: `[← Chapter 4: Launch Files](./chapter-4.md) | [Chapter 6: Controllers →](./chapter-6.md)`
+   - **To**: `[← Chapter 4: Launch Files](./launch.md) | [Chapter 6: Controllers →](./controllers.md)`
+
 ## Non-Functional Requirements
 
 - **Performance**: Homepage must load in under 3 seconds on standard broadband connection

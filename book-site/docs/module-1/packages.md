@@ -455,4 +455,4 @@ In the next chapter, we'll learn about launch files - a powerful way to start mu
 
 ---
 
-[← Chapter 2: Communication](./chapter-2.md) | [Chapter 4: Launch Files →](./chapter-4.md)
+[← Chapter 2: Communication](./communication.md) | [Chapter 4: Launch Files →](./launch.md)
