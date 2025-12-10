@@ -305,4 +305,4 @@ In the next chapter, we'll explore ROS 2 communication patterns in depth, includ
 
 ---
 
-[← Module 1 Overview](./index.md) | [Chapter 2: Communication Patterns →](./chapter-2.md)
+[← Module 1 Overview](./index.md) | [Chapter 2: Communication Patterns →](./communication.md)

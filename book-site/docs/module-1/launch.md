@@ -490,4 +490,4 @@ In the next chapter, we'll dive into URDF (Unified Robot Description Format) to 
 
 ---
 
-[← Chapter 3: Packages](./chapter-3.md) | [Chapter 5: URDF →](./chapter-5.md)
+[← Chapter 3: Packages](./packages.md) | [Chapter 5: URDF →](./urdf.md)

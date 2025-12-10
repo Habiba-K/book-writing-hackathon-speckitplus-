@@ -584,4 +584,4 @@ Continue to Module 2 to learn about Digital Twins, where you'll simulate robots 
 
 ---
 
-[← Chapter 5: URDF](./chapter-5.md) | [Module 1 Overview](./index.md)
+[← Chapter 5: URDF](./urdf.md) | [Module 1 Overview](./index.md)

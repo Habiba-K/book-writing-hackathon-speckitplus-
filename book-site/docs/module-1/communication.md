@@ -417,4 +417,4 @@ In the next chapter, we'll learn how to organize ROS 2 code into packages, use c
 
 ---
 
-[← Chapter 1: Architecture](./chapter-1.md) | [Chapter 3: Packages →](./chapter-3.md)
+[← Chapter 1: Architecture](./architecture.md) | [Chapter 3: Packages →](./packages.md)

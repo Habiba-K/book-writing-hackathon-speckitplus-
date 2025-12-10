@@ -70,7 +70,7 @@ Import robot models into Unity for enhanced visualization and interaction demos.
 
 ## Troubleshooting
 
-Having issues? Check the [Troubleshooting Guide](./troubleshooting.md) for common problems and solutions.
+For common issues and solutions, refer to the general ROS 2 and Gazebo documentation resources.
 
 ---
 

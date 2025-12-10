@@ -161,6 +161,31 @@ As a student accessing the textbook on a mobile device or tablet, I want the mod
 - Build process must complete without errors
 - No external dependencies beyond standard Docusaurus ecosystem
 
+## Documentation Link Resolution
+
+The following broken internal links were identified and fixed to ensure proper navigation within the documentation:
+
+1. **File**: `book-site/docs/module-1/communication.md`
+   - **Fixed**: `[← Chapter 1: Architecture](./chapter-1.md) | [Chapter 3: Packages →](./chapter-3.md)`
+   - **To**: `[← Chapter 1: Architecture](./architecture.md) | [Chapter 3: Packages →](./packages.md)`
+
+2. **File**: `book-site/docs/module-1/controllers.md`
+   - **Fixed**: `[← Chapter 5: URDF](./chapter-5.md) | [Module 1 Overview](./index.md)`
+   - **To**: `[← Chapter 5: URDF](./urdf.md) | [Module 1 Overview](./index.md)`
+
+3. **File**: `book-site/docs/module-1/architecture.md`
+   - **Fixed**: `[← Module 1 Overview](./index.md) | [Chapter 2: Communication Patterns →](./chapter-2.md)`
+   - **To**: `[← Module 1 Overview](./index.md) | [Chapter 2: Communication Patterns →](./communication.md)`
+
+4. **File**: `book-site/docs/module-1/launch.md`
+   - **Fixed**: `[← Chapter 3: Packages](./chapter-3.md) | [Chapter 5: URDF →](./chapter-5.md)`
+   - **To**: `[← Chapter 3: Packages](./packages.md) | [Chapter 5: URDF →](./urdf.md)`
+
+5. **File**: `book-site/docs/module-2/index.md`
+   - **Fixed**: Removed reference to non-existent troubleshooting guide
+   - **From**: `Having issues? Check the [Troubleshooting Guide](./troubleshooting.md) for common problems and solutions.`
+   - **To**: `For common issues and solutions, refer to the general ROS 2 and Gazebo documentation resources.`
+
 ## Non-Functional Requirements
 
 - **Performance**: Homepage must load in under 3 seconds on standard broadband connection
@@ -168,4 +193,5 @@ As a student accessing the textbook on a mobile device or tablet, I want the mod
 - **Responsiveness**: Must display correctly on screen widths from 320px (mobile) to 1920px+ (desktop)
 - **Browser Compatibility**: Must work on Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
 - **Maintainability**: Module data should be easy to update (ideally in a single configuration file or data structure)
+- **Documentation Quality**: All internal links must be valid and point to existing resources to ensure navigable documentation
 - **Deployment**: Site must deploy successfully to GitHub Pages after Iteration 1 completion, with subsequent deployments after each module content iteration (incremental publishing strategy)
