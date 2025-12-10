@@ -1,0 +1,35 @@
+# Performance optimization configuration for Gazebo simulation
+# Optimizes physics simulation for real-time performance
+
+physics:
+  # Physics engine parameters for optimal performance
+  max_step_size: 0.001          # Time step for physics simulation (smaller = more accurate but slower)
+  real_time_factor: 1.0         # Target real-time factor (1.0 = real-time)
+  real_time_update_rate: 1000.0 # Update rate in Hz (1000 = 1ms update)
+  max_contacts: 20              # Maximum number of contacts between bodies
+  solver:
+    type: "ode"                 # Physics engine type
+    iters: 50                   # Number of solver iterations (higher = more stable but slower)
+    sor: 1.3                    # Successive over-relaxation parameter
+  constraints:
+    cfm: 0.000001              # Constraint force mixing
+    erp: 0.2                   # Error reduction parameter
+
+rendering:
+  # Rendering optimization settings
+  max_loop_delay: 50           # Maximum delay in rendering loop (ms)
+  enable_MSD: false            # Enable multi-sampling anti-aliasing
+  samples: 0                   # Number of anti-aliasing samples
+  display: -1                  # Display index (-1 = default)
+
+gui:
+  # GUI performance settings
+  camera:
+    update_rate: 60            # Camera update rate in Hz
+    frame_rate: 60             # Target frame rate
+
+system:
+  # System-level performance optimizations
+  threads: 4                   # Number of threads for physics simulation
+  contact_surface_layer: 0.001 # Contact surface layer thickness
+  contact_max_correcting_vel: 100.0 # Maximum contact correction velocity

@@ -1,0 +1,32 @@
+# Sensor configuration for digital twin robot
+# Defines ROS 2 topics and parameters for all sensors
+
+sensors:
+  lidar:
+    topic: "/scan"
+    frame_id: "head"
+    update_rate: 10
+    type: "laser_scan"
+
+  imu:
+    topic: "/imu/data"
+    frame_id: "base_link"
+    update_rate: 100
+    type: "imu"
+
+  depth_camera:
+    rgb_topic: "/depth_cam/rgb/image_raw"
+    depth_topic: "/depth_cam/depth/image_raw"
+    points_topic: "/depth_cam/depth/points"
+    camera_info_topic: "/depth_cam/rgb/camera_info"
+    frame_id: "head_depth_frame"
+    update_rate: 30
+    type: "depth_camera"
+
+# QoS settings for sensor data
+qos:
+  sensor_data:
+    reliability: "best_effort"
+    durability: "volatile"
+    history: "keep_last"
+    depth: 5

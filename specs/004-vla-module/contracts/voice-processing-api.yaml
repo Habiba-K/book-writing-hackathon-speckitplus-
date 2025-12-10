@@ -1,0 +1,95 @@
+# Voice Processing API Contract (Theoretical)
+
+openapi: 3.0.0
+info:
+  title: VLA Voice Processing API
+  description: Theoretical API for processing voice commands in the Vision-Language-Action system
+  version: 1.0.0
+
+paths:
+  /transcribe:
+    post:
+      summary: Theoretically transcribe audio to text using Whisper
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                audio:
+                  type: string
+                  format: binary
+                  description: Theoretical audio input
+                language:
+                  type: string
+                  default: "en"
+                  description: Language of the audio
+      responses:
+        '200':
+          description: Theoretical transcription result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TranscriptionResult'
+
+  /intent:
+    post:
+      summary: Theoretically extract intent from transcribed text
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - text
+              properties:
+                text:
+                  type: string
+                  description: Theoretical transcribed text
+      responses:
+        '200':
+          description: Theoretical intent result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IntentResult'
+
+components:
+  schemas:
+    TranscriptionResult:
+      type: object
+      required:
+        - text
+        - confidence
+      properties:
+        text:
+          type: string
+          description: Theoretical transcribed text
+        confidence:
+          type: number
+          format: float
+          minimum: 0.0
+          maximum: 1.0
+          description: Theoretical confidence score
+
+    IntentResult:
+      type: object
+      required:
+        - action_type
+        - confidence
+      properties:
+        action_type:
+          type: string
+          enum: [PICK_UP, MOVE_TO, IDENTIFY, GREET, FOLLOW, STOP]
+          description: Theoretical action type
+        confidence:
+          type: number
+          format: float
+          minimum: 0.0
+          maximum: 1.0
+          description: Theoretical confidence score
+        parameters:
+          type: object
+          description: Theoretical action-specific parameters

@@ -1,0 +1,13 @@
+{
+  "label": "Module 1: Robotic Nervous System (ROS 2)",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Master the middleware layer that enables robot communication and control through ROS 2, the industry-standard framework for robotics software development."
+  },
+  "customProps": {
+    "accentColor": "#3B82F6",
+    "timeframe": "Weeks 3-5",
+    "icon": "robot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "Module 4: Vision-Language-Action (VLA)",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Build intelligent robots that understand and execute natural language commands through voice-to-action pipelines."
+  },
+  "customProps": {
+    "accentColor": "#F59E0B",
+    "timeframe": "Weeks 12-14",
+    "icon": "microphone"
+  }
+}

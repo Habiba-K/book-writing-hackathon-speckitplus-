@@ -1,0 +1,92 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Module accent colors */
+:root {
+  /* Module 1: ROS 2 - Blue */
+  --module-1-color: #3B82F6;
+  --module-1-color-light: #60A5FA;
+  --module-1-color-dark: #2563EB;
+
+  /* Module 2: Digital Twin - Green */
+  --module-2-color: #10B981;
+  --module-2-color-light: #34D399;
+  --module-2-color-dark: #059669;
+
+  /* Module 3: NVIDIA Isaac - Purple */
+  --module-3-color: #8B5CF6;
+  --module-3-color-light: #A78BFA;
+  --module-3-color-dark: #7C3AED;
+
+  /* Module 4: VLA - Orange */
+  --module-4-color: #F59E0B;
+  --module-4-color-light: #FBBF24;
+  --module-4-color-dark: #D97706;
+
+  /* Primary theme colors - using Module 1 blue as base */
+  --ifm-color-primary: #3B82F6;
+  --ifm-color-primary-dark: #2563EB;
+  --ifm-color-primary-darker: #1D4ED8;
+  --ifm-color-primary-darkest: #1E40AF;
+  --ifm-color-primary-light: #60A5FA;
+  --ifm-color-primary-lighter: #93C5FD;
+  --ifm-color-primary-lightest: #BFDBFE;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Typography */
+  --ifm-heading-font-weight: 600;
+  --ifm-font-weight-bold: 600;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #60A5FA;
+  --ifm-color-primary-dark: #3B82F6;
+  --ifm-color-primary-darker: #2563EB;
+  --ifm-color-primary-darkest: #1D4ED8;
+  --ifm-color-primary-light: #93C5FD;
+  --ifm-color-primary-lighter: #BFDBFE;
+  --ifm-color-primary-lightest: #DBEAFE;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Global styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Code block styling */
+.prism-code {
+  font-size: 14px;
+}
+
+/* Improve link visibility */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Module card accent border utilities */
+.module-1-accent {
+  border-left-color: var(--module-1-color);
+}
+
+.module-2-accent {
+  border-left-color: var(--module-2-color);
+}
+
+.module-3-accent {
+  border-left-color: var(--module-3-color);
+}
+
+.module-4-accent {
+  border-left-color: var(--module-4-color);
+}

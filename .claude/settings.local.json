@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"D:\\New folder\\gemini CLI LECTURES\\book-writing-hackathon\\specs\\003-digital-twin-gazebo-unity\"\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

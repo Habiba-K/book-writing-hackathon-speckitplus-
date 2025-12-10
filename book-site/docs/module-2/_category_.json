@@ -1,0 +1,13 @@
+{
+  "label": "Module 2: Digital Twin (Gazebo & Unity)",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Build realistic simulations for testing and validation using industry-standard tools for physics simulation and visualization."
+  },
+  "customProps": {
+    "accentColor": "#10B981",
+    "timeframe": "Weeks 6-8",
+    "icon": "cube"
+  }
+}

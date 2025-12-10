@@ -1,0 +1,13 @@
+{
+  "label": "Module 3: NVIDIA Isaac",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Leverage GPU-accelerated perception and AI for intelligent robotics using NVIDIA's Isaac ecosystem."
+  },
+  "customProps": {
+    "accentColor": "#8B5CF6",
+    "timeframe": "Weeks 9-11",
+    "icon": "brain"
+  }
+}
