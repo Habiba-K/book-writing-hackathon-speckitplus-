@@ -198,6 +198,38 @@ The following additional broken internal links were identified and fixed to ensu
    - **Fixed**: `[← Chapter 4: Launch Files](./chapter-4.md) | [Chapter 6: Controllers →](./chapter-6.md)`
    - **To**: `[← Chapter 4: Launch Files](./launch.md) | [Chapter 6: Controllers →](./controllers.md)`
 
+## Additional Documentation Link Resolution (Module 1 Index)
+
+The following additional broken internal links were identified and fixed in the module-1 index file:
+
+8. **File**: `book-site/docs/module-1/index.md`
+   - **Fixed**: `### [Chapter 1: ROS 2 Architecture and Installation](./chapter-1.md)`
+   - **To**: `### [Chapter 1: ROS 2 Architecture and Installation](./architecture.md)`
+
+9. **File**: `book-site/docs/module-1/index.md`
+   - **Fixed**: `### [Chapter 2: ROS 2 Communication Patterns](./chapter-2.md)`
+   - **To**: `### [Chapter 2: ROS 2 Communication Patterns](./communication.md)`
+
+10. **File**: `book-site/docs/module-1/index.md`
+    - **Fixed**: `### [Chapter 3: ROS 2 Packages and Build System](./chapter-3.md)`
+    - **To**: `### [Chapter 3: ROS 2 Packages and Build System](./packages.md)`
+
+11. **File**: `book-site/docs/module-1/index.md`
+    - **Fixed**: `### [Chapter 4: Launch Files and Parameters](./chapter-4.md)`
+    - **To**: `### [Chapter 4: Launch Files and Parameters](./launch.md)`
+
+12. **File**: `book-site/docs/module-1/index.md`
+    - **Fixed**: `### [Chapter 5: URDF - Robot Modeling](./chapter-5.md)`
+    - **To**: `### [Chapter 5: URDF - Robot Modeling](./urdf.md)`
+
+13. **File**: `book-site/docs/module-1/index.md`
+    - **Fixed**: `### [Chapter 6: Robot Controllers](./chapter-6.md)`
+    - **To**: `### [Chapter 6: Robot Controllers](./controllers.md)`
+
+14. **File**: `book-site/docs/module-1/index.md`
+    - **Fixed**: `**Ready to Start?** Begin with [Chapter 1: ROS 2 Architecture and Installation](./chapter-1.md)`
+    - **To**: `**Ready to Start?** Begin with [Chapter 1: ROS 2 Architecture and Installation](./architecture.md)`
+
 ## Non-Functional Requirements
 
 - **Performance**: Homepage must load in under 3 seconds on standard broadband connection
