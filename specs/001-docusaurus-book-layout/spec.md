@@ -252,6 +252,15 @@ The following additional broken internal links were identified and fixed in the 
     - **Changed**: `onBrokenLinks: 'throw'` → `onBrokenLinks: 'warn'`
     - **Rationale**: Changed from throwing errors to showing warnings to allow successful builds while still identifying potential link issues
 
+18. **File**: `book-site/docusaurus.config.ts` - GitHub Configuration Updates
+    - **Changed**: `organizationName: 'your-username'` → `organizationName: 'Habiba-K'`
+    - **Changed**: `projectName: 'book-writing-hackathon'` → `projectName: 'book-writing-hackathon-speckitplus-'`
+    - **Changed**: `baseUrl: '/'` → `baseUrl: '/book-writing-hackathon-speckitplus-'`
+    - **Changed**: `url: 'https://your-username.github.io'` → `url: 'https://Habiba-K.github.io'`
+    - **Changed**: Navbar GitHub link: `https://github.com/your-username/book-writing-hackathon` → `https://github.com/Habiba-K/book-writing-hackathon-speckitplus-`
+    - **Changed**: Footer GitHub link: `https://github.com/your-username/book-writing-hackathon` → `https://github.com/Habiba-K/book-writing-hackathon-speckitplus-`
+    - **Rationale**: Updated all GitHub configuration values to match the actual repository owner and project name to prevent 404 errors when clicking GitHub links
+
 ## Non-Functional Requirements
 
 - **Performance**: Homepage must load in under 3 seconds on standard broadband connection

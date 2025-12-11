@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://Habiba-K.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/book-writing-hackathon-speckitplus-',
 
   // GitHub pages deployment config.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'book-writing-hackathon', // Usually your repo name.
+  organizationName: 'Habiba-K', // Usually your GitHub org/user name.
+  projectName: 'book-writing-hackathon-speckitplus-', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
@@ -76,7 +76,7 @@ const config: Config = {
           label: 'Modules',
         },
         {
-          href: 'https://github.com/your-username/book-writing-hackathon',
+          href: 'https://github.com/Habiba-K/book-writing-hackathon-speckitplus-',
           label: 'GitHub',
           position: 'right',
         },
@@ -128,7 +128,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-username/book-writing-hackathon',
+              href: 'https://github.com/Habiba-K/book-writing-hackathon-speckitplus-',
             },
           ],
         },
