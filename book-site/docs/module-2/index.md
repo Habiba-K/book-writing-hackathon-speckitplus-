@@ -35,12 +35,12 @@ Before starting this module, ensure you have:
 
 | Chapter | Topic | Priority |
 |---------|-------|----------|
-| [Chapter 6](./06-digital-twin-concepts/) | Digital Twin Concepts | P1 |
-| [Chapter 7](./07-gazebo-fundamentals/) | Gazebo Fundamentals | P1 |
-| [Chapter 8](./08-physics-simulation/) | Physics Simulation | P2 |
-| [Chapter 9](./09-sensor-simulation/) | Sensor Simulation | P1 |
-| [Chapter 10](./10-ros2-control/) | ROS 2 Control Integration | P1 |
-| [Chapter 11](./11-unity-visualization/) | Unity Visualization | P3 (Optional) |
+| [Chapter 6](./01-digital-twin-overview/) | Digital Twin Concepts | P1 |
+| [Chapter 7](./02-gazebo-simulation-basics/) | Gazebo Fundamentals | P1 |
+| [Chapter 8](./03-physics-simulation-basics/) | Physics Simulation | P2 |
+| [Chapter 9](./04-sensor-simulation/) | Sensor Simulation | P1 |
+| [Chapter 10](./05-ros2-control-integration/) | ROS 2 Control Integration | P1 |
+| [Chapter 11](./06-unity-visualization/) | Unity Visualization | P3 (Optional) |
 
 ## Chapter Summaries
 
@@ -74,6 +74,6 @@ For common issues and solutions, refer to the general ROS 2 and Gazebo documenta
 
 ---
 
-**Next:** Start with [Chapter 6: Digital Twin Concepts](./06-digital-twin-concepts/) to understand the foundations.
+**Next:** Start with [Chapter 6: Digital Twin Concepts](./01-digital-twin-overview/) to understand the foundations.
 
 [Return to Homepage](/)

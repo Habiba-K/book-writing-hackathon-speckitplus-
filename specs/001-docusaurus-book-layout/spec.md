@@ -230,6 +230,22 @@ The following additional broken internal links were identified and fixed in the 
     - **Fixed**: `**Ready to Start?** Begin with [Chapter 1: ROS 2 Architecture and Installation](./chapter-1.md)`
     - **To**: `**Ready to Start?** Begin with [Chapter 1: ROS 2 Architecture and Installation](./architecture.md)`
 
+## Additional Documentation Link Resolution (Module 2 Index)
+
+The following additional broken internal links were identified and fixed in the module-2 index file:
+
+15. **File**: `book-site/docs/module-2/index.md`
+    - **Fixed**: Table of Contents links pointing to non-existent directories:
+      - `./06-digital-twin-concepts/` → `./01-digital-twin-overview/`
+      - `./07-gazebo-fundamentals/` → `./02-gazebo-simulation-basics/`
+      - `./08-physics-simulation/` → `./03-physics-simulation-basics/`
+      - `./09-sensor-simulation/` → `./04-sensor-simulation/`
+      - `./10-ros2-control/` → `./05-ros2-control-integration/`
+      - `./11-unity-visualization/` → `./06-unity-visualization/`
+
+16. **File**: `book-site/docs/module-2/index.md`
+    - **Fixed**: Bottom navigation link: `./06-digital-twin-concepts/` → `./01-digital-twin-overview/`
+
 ## Non-Functional Requirements
 
 - **Performance**: Homepage must load in under 3 seconds on standard broadband connection
