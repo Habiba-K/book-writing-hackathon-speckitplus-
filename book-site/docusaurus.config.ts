@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://Habiba-K.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/book-writing-hackathon-speckitplus-',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'Habiba-K', // Usually your GitHub org/user name.
