@@ -91,6 +91,8 @@ All content creation and technical implementation MUST reference official docume
 - Spec-Kit Plus methodology for project structure
 - GitHub Pages official deployment guides
 - Official robotics framework documentation (ROS 2, Isaac, etc.)
+- Embedded RAG chatbot answering book-only and user-selected text queries
+- Technologies: Spec-Kit Plus, Claude Code, OpenAI Agents SDK, FastAPI, Qdrant, Neon
 
 **Rationale**: Official documentation represents tested, maintained, and community-validated approaches. Deviating from official guidance leads to maintenance issues, compatibility problems, and student confusion when seeking help.
 
