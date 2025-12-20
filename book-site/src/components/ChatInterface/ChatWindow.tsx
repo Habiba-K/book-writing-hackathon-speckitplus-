@@ -54,7 +54,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ isOpen, onClose }) => {
 
     try {
       // Call backend API
-      const response = await fetch('http://localhost:8000/ask', {
+      const response = await fetch('https://khabiba17-deploy-chatbot.hf.space/ask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
