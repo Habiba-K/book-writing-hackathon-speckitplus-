@@ -1,0 +1,14 @@
+[project]
+name = "qdrant-retrieval-test"
+version = "0.1.0"
+description = "Python backend script for testing Qdrant retrieval functionality - query Qdrant vector database and verify stored embeddings can be retrieved accurately"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cohere>=5.0.0",
+    "qdrant-client>=1.7.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "groq>=0.3.0",
+]
